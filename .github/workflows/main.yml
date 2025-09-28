@@ -3,7 +3,7 @@ name: HTB Exam Status Daily Check
 on:
     workflow_dispatch:
     schedule:
-      - cron: '0 6 * 3-10 *'
+       - cron: '0 6 * 3-10 *'
   workflow_dispatch: {}
 
 permissions:
