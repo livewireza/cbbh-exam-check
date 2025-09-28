@@ -52,4 +52,4 @@ jobs:
           # Choose exam: CBBH or CDSA
           HTB_EXAM: ${{ secrets.HTB_EXAM }}
         run: |
-          python check_htb_exam.py
+          python ./check_htb_exam.py
