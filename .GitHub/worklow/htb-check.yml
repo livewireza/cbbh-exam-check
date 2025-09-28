@@ -1,6 +1,6 @@
 name: HTB Exam Status Daily Check
 
-off:
+on:
   schedule:
     # DST months: March (3) -> October (10) run at 06:00 UTC (= 08:00 CEST)
     - cron: '0 6 * 3-10 *'
