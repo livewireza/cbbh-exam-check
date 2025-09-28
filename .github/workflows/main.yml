@@ -4,9 +4,9 @@ on:
     workflow_dispatch:
     schedule:
       - cron: '0 6 * 3-10 *'
-  push:
-    branches:
-      - main
+    push:
+      branches:
+        - main
     paths:
       - 'check_htb_exam.py'
 permissions:
