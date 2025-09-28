@@ -4,7 +4,6 @@ on:
     workflow_dispatch:
     # DST months: March (3) -> October (10) run at 06:00 UTC (= 08:00 CEST)
     - cron: '0 6 * 3-10 *'
-    # Standard months: November(11) -> February(2) run at 07:00 UTC (= 08:00 CET)
   workflow_dispatch: {}
 
 permissions:
