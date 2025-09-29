@@ -40,10 +40,8 @@ jobs:
 
       - name: Run HTB check script
         env:
-          HTB_EMAIL: ${{ secrets.HTB_EMAIL }}
-          HTB_PASSWORD: ${{ secrets.HTB_PASSWORD }}
           # optional: if you prefer to use a cookie for Academy access
-          HTB_COOKIE: ${{ secrets.HTB_COOKIE }}
+          HTB_COOKIE_VALUE: ${{ secrets.HTB_COOKIE_VALUE }}
           # Mailgun configuration
           MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
           MAILGUN_DOMAIN: ${{ secrets.MAILGUN_DOMAIN }}
