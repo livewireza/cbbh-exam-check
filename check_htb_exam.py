@@ -11,7 +11,7 @@ import urllib.request
 # Config from environment (GitHub Actions secrets)
 HTB_EMAIL = os.getenv("HTB_EMAIL", "")
 HTB_PASSWORD = os.getenv("HTB_PASSWORD", "")
-HTB_COOKIE = os.getenv("HTB_COOKIE", "")  # optional fallback for Academy if needed
+HTB_COOKIE_VALUE = os.getenv("HTB_COOKIE_VALUE", "")  # optional fallback for Academy if needed
 MAILGUN_API_KEY = os.getenv("MAILGUN_API_KEY", "")
 MAILGUN_DOMAIN = os.getenv("MAILGUN_DOMAIN", "")
 MAILGUN_TO = os.getenv("MAILGUN_TO", "")
