@@ -57,7 +57,7 @@ def send_get_request():
                 print("Completed check and notification.")
                 
                 break
-            elif status in ['In Review','Failed', 'Certified']:
+            elif status in ['Failed', 'Certified']:
                 if 'review' in data['data'][0]:
                     review_data = data['data'][0]['review']
                     feedback = review_data['feedback']
