@@ -62,7 +62,7 @@ def send_get_request():
                     review_data = data['data'][0]['review']
                     feedback = review_data['feedback']
                 #ret = sc_send(status, f'{feedback}\n\n第二行', key)
-                print(ret)
+                #print(ret)
                 
                 subject = f"HTB {HTB_EXAM} result: {status}"
                 body = f"Exam: {HTB_EXAM}\nStatus: {status}\n\nFeedback:\n{feedback}\n\n"
